@@ -1,7 +1,7 @@
 name: build
 on:
   schedule:
-    - cron:  '30 6 * * *'
+    - cron:  '30 13 * * *'
 jobs:
   build:
     runs-on: windows-latest
